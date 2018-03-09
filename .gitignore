@@ -1,0 +1,110 @@
+Last login: Fri Mar  9 13:13:03 on ttys000
+Pauls-MacBook-Pro:~ paulc$ cd goworkspace/
+Pauls-MacBook-Pro:goworkspace paulc$ ls
+bin	pkg	src
+Pauls-MacBook-Pro:goworkspace paulc$ cd bin
+Pauls-MacBook-Pro:bin paulc$ ls
+Pauls-MacBook-Pro:bin paulc$ ls
+01_helloWorld
+Pauls-MacBook-Pro:bin paulc$ git version
+git version 2.14.3 (Apple Git-98)
+Pauls-MacBook-Pro:bin paulc$ pwd
+/Users/paulc/goworkspace/bin
+Pauls-MacBook-Pro:bin paulc$
+Pauls-MacBook-Pro:bin paulc$ ls
+01_helloWorld
+Pauls-MacBook-Pro:bin paulc$ ls
+01_helloWorld
+Pauls-MacBook-Pro:bin paulc$ pwd
+/Users/paulc/goworkspace/bin
+Pauls-MacBook-Pro:bin paulc$ cd ..
+Pauls-MacBook-Pro:goworkspace paulc$ cd src
+Pauls-MacBook-Pro:src paulc$ owd
+-bash: owd: command not found
+Pauls-MacBook-Pro:src paulc$ pwd
+/Users/paulc/goworkspace/src
+Pauls-MacBook-Pro:src paulc$ ls
+github.com
+Pauls-MacBook-Pro:src paulc$ cd github.com/
+Pauls-MacBook-Pro:github.com paulc$ ls
+GoesToEleven	paulcharette
+Pauls-MacBook-Pro:github.com paulc$ cd paulcharette/
+Pauls-MacBook-Pro:paulcharette paulc$ ls
+udemyTraining
+Pauls-MacBook-Pro:paulcharette paulc$ pwd
+/Users/paulc/goworkspace/src/github.com/paulcharette
+Pauls-MacBook-Pro:paulcharette paulc$
+Pauls-MacBook-Pro:paulcharette paulc$
+Pauls-MacBook-Pro:paulcharette paulc$ cd ../GoesToEleven/
+Pauls-MacBook-Pro:GoesToEleven paulc$ ls
+GolangTraining
+Pauls-MacBook-Pro:GoesToEleven paulc$ ls -a
+.		..		.DS_Store	GolangTraining
+Pauls-MacBook-Pro:GoesToEleven paulc$ cd -
+/Users/paulc/goworkspace/src/github.com/paulcharette
+Pauls-MacBook-Pro:paulcharette paulc$ cd ../GoesToEleven/GolangTraining/
+Pauls-MacBook-Pro:GolangTraining paulc$ ls -a
+.				08_pointers			19_map
+..				09_remainder			20_struct
+.git				10_for-loop			21_interfaces
+.gitignore			11_switch-statements		22_go-routines
+01_getting-started		12_if_else-if_else		23_error-handling
+02_package			13_exercise-solutions		24_testing
+03_variables			14_functions			25_code-walk
+04_scope			15_bool-expressions		26_QUESTIONS-FROM-STUDENTS
+05_blank-identifier		16_exercise-solutions		27_code-in-process
+06_constants			17_array			LICENSE.txt
+07_memory-address		18_slice			README.md
+Pauls-MacBook-Pro:GolangTraining paulc$ vi .gitignore
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+# WebStorm
+*.iml
+
+# Directory-based project format:
+.idea/
+.idea/workspace.xml
+**/.idea/workspace.xml
+
+# mac hidden files
+.DS_Store
+
+#other
+node_modules/
+bower_components/
+.tmp
+.sass-cache
+builds/**/images/*
+*.ogg
+*.mp3
+*.mp4
+*.png
+*.jpeg
+
+# security / ssl
+*.pem
+*.xxjson
