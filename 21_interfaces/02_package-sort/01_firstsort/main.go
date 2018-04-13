@@ -15,6 +15,6 @@ func main() {
 	studyGroup := people{"Zeno", "John", "Al", "Jenny"}
 
 	sort.Sort(studyGroup)
-	
+
 	fmt.Println(studyGroup)
 }
